@@ -10,7 +10,15 @@
     "build": "tsc -p jsconfig.json",
     "pub": "npm publish"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talkohavy/test-package"
+  },
+  "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "restricted"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.4.5"
