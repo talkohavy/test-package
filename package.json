@@ -2,23 +2,12 @@
   "name": "@talkohavy/test-package",
   "version": "1.0.2",
   "description": "The best package in the world",
-  "main": "dist/lib/index.js",
-  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
     "test": "node --test",
     "build": "tsc -p jsconfig.json",
     "pub": "npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/talkohavy/test-package"
-  },
-  "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
   },
   "license": "ISC",
   "devDependencies": {
