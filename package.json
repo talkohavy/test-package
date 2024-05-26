@@ -2,6 +2,7 @@
   "name": "@talkohavy/test-package",
   "version": "1.0.10",
   "description": "The best package in the world",
+  "main": "dist/lib/index.js",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
@@ -31,6 +32,18 @@
     "access": "public"
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Tal Kohavy",
+      "email": "talkohavy@gmail.com",
+      "url": "https://github.com/talkohavy"
+    },
+    {
+      "name": "Jonathan Paripsky",
+      "email": "paripsky@gmail.com",
+      "url": "https://github.com/paripsky"
+    }
+  ],
   "devDependencies": {
     "typescript": "^5.4.5"
   }
