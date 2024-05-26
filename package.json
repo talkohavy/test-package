@@ -2,6 +2,7 @@
   "name": "@talkohavy/test-package",
   "version": "1.0.3",
   "description": "The best package in the world",
+  "main": "dist/lib/index.js",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
