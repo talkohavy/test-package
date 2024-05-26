@@ -1,6 +1,6 @@
 {
   "name": "@talkohavy/test-package",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "The best package in the world",
   "main": "dist/lib/index.js",
   "type": "module",
