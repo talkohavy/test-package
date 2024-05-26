@@ -2,7 +2,6 @@
   "name": "@talkohavy/test-package",
   "version": "1.0.9",
   "description": "The best package in the world",
-  "main": "dist/lib/index.js",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
@@ -12,9 +11,19 @@
     "pub": "npm publish",
     "pub-dry": "npm publish --dry-run"
   },
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.cjs"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/talkohavy/test-package"
+  },
+  "bugs": {
+    "url": "https://github.com/talkohavy/test-package/issues",
+    "email": "talkohavy@gmail.com"
   },
   "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
   "publishConfig": {
