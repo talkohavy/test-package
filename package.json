@@ -29,7 +29,7 @@
   "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "access": "restricted"
   },
   "license": "MIT",
   "contributors": [
