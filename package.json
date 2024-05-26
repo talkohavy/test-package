@@ -7,7 +7,8 @@
   "scripts": {
     "clean": "rm -rf dist",
     "test": "node --test",
-    "build": "tsc -p jsconfig.json"
+    "build": "tsc -p jsconfig.json",
+    "pub": "npm publish"
   },
   "author": "",
   "license": "ISC",
