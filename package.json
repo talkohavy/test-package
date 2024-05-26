@@ -2,7 +2,8 @@
   "name": "@talkohavy/test-package",
   "version": "1.0.1",
   "description": "The best package in the world",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
@@ -17,7 +18,7 @@
   "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "access": "restricted"
+    "access": "public"
   },
   "license": "ISC",
   "devDependencies": {
