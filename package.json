@@ -12,7 +12,16 @@
     "pub": "npm publish",
     "pub-dry": "npm publish --dry-run"
   },
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talkohavy/test-package"
+  },
+  "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
