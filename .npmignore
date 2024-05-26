@@ -1,2 +1,5 @@
 _test_/
 dist/
+src/
+build.config.js
+jsconfig.json 
