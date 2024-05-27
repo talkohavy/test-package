@@ -1,6 +1,6 @@
 {
   "name": "@talkohavy/test-package",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "dist/lib/index.js",
   "description": "The best package in the world",
   "type": "module",
@@ -29,7 +29,7 @@
   "author": "Tal Kohavy <talkohavy@gmail.com> (https://github.com/talkohavy)",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "access": "restricted"
+    "access": "public"
   },
   "license": "MIT",
   "contributors": [
@@ -40,6 +40,7 @@
     }
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.27.3",
     "typescript": "^5.4.5"
   }
 }
